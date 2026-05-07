@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Youtube, MessageCircle } from "lucide-react";
+import { MapPin, Phone, Mail, Twitter, PlayCircle, MessageCircle } from "lucide-react";
 
 export default function Contato() {
   return (
@@ -38,8 +38,8 @@ export default function Contato() {
               <p className="text-sm text-gray-400 font-medium mb-4">Nos acompanhe nas redes</p>
               <div className="flex gap-3">
                 {[
-                  { icon: Instagram, label: "Instagram", href: "#", color: "hover:bg-pink-600" },
-                  { icon: Youtube, label: "YouTube", href: "#", color: "hover:bg-red-600" },
+                  { icon: Twitter, label: "Instagram", href: "#", color: "hover:bg-pink-600" },
+                  { icon: PlayCircle, label: "YouTube", href: "#", color: "hover:bg-red-600" },
                   { icon: MessageCircle, label: "WhatsApp", href: "#", color: "hover:bg-green-600" },
                 ].map((s) => (
                   <a key={s.label} href={s.href}
