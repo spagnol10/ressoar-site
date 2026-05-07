@@ -1,3 +1,4 @@
+"use client";
 import { MapPin, Phone, Mail, Share2, PlayCircle, MessageCircle } from "lucide-react";
 
 export default function Contato() {
